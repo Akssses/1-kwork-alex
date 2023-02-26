@@ -1,0 +1,28 @@
+.app-h {
+    height: calc(100vh - 80px);
+}
+
+.sideba {
+    height: calc(100vh - 80px);
+}
+
+.about_game_content p{
+    margin-bottom: 10px;
+}
+
+.line-progress {
+    background: linear-gradient(90deg, #A36BFD 0%, #6B8AEB 103.21%);
+}
+
+.zindex {
+    z-index: 100;
+    position: relative;
+}
+
+.line-chart {
+    width: 700px;
+    height: 350px;
+    background-color: #1f2025ce;
+    border-radius: 10px;
+    padding: 10px;
+}

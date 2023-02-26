@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app-container {
+    margin: 40px;
+    height: calc(100vh - 80px);
+    border-radius: 30px;
+    z-index: 50;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.gradient {
+    background: linear-gradient(149deg, rgb(40, 0, 139) 0%, rgba(106,57,175,1) 42%, rgb(113, 31, 255) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear; 
+    background-size: 100%; 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+.tab-container {
+    display: flex;
+  }
+  
+
+  
+  .tab-navigation button {
+    margin-bottom: 1rem;
+  }
+  
+  .tab-content {
+    flex: 3;
+  }
+
+
+.card {
+    background: #1f2025d7;
+    color: #fff;
+    height: 150px;
+    width: 363px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+
+.card .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card .left h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card .left h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card .left .stat {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card .left .stat .arrow {
+    font-size: 18px;
+    transform: rotate(-45deg);
+    color: #00ff0d;
+}
+
+.card.blue .stat .arrow {
+    color: #fff;
+}
+
+.card .left .stat .arrow.red {
+    font-size: 18px;
+    transform: rotate(-45deg);
+    color: #E65C6A;
+}
+
+.card .left .stat h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #26ff00;
+}
+
+.card.blue .left .stat h4 {
+    color: #fff;
+}
+
+.card .left .stat h4.red {
+    color: #E65C6A;
+}
+
+.card .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}

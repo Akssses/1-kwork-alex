@@ -1,0 +1,143 @@
+.appl_details {
+    background: #1f2025ce;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: #fff;
+    box-shadow: 1px 1px 2px #3d3d3d, -1px -1px 2px #3d3d3d;
+}
+
+.appl_details .title {
+    width: 100%;
+    height: 15%;
+}
+
+.appl_details .title h1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.appl_details .details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.appl_details .details .applications,
+.appl_details .details .short_listed,
+.appl_details .details .rejected,
+.appl_details .details .on_hold,
+.appl_details .details .accepted {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.appl_details .details .applications .circle,
+.appl_details .details .short_listed .circle,
+.appl_details .details .rejected .circle,
+.appl_details .details .on_hold .circle,
+.appl_details .details .accepted .circle {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(188, 219, 236);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.appl_details .details .short_listed .circle {
+    background-color: #2f98f6;
+}
+
+.appl_details .details .rejected .circle {
+    background-color: #E65C6A;
+}
+
+.appl_details .details .on_hold .circle {
+    background-color: rgb(250, 219, 197);
+}
+
+.appl_details .details .accepted .circle {
+    background-color: #866DC6;
+}
+
+.appl_details .details .applications .text,
+.appl_details .details .short_listed .text,
+.appl_details .details .rejected .text,
+.appl_details .details .on_hold .text,
+.appl_details .details .accepted .text {
+    width: 100px;
+}
+
+.appl_details .details .applications .text h2,
+.appl_details .details .short_listed .text h2,
+.appl_details .details .rejected .text h2,
+.appl_details .details .on_hold .text h2,
+.appl_details .details .accepted .text h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(188, 219, 236);
+}
+
+.appl_details .details .short_listed .text h2 {
+    color: #2f98f6;
+}
+
+.appl_details .details .rejected .text h2 {
+    color: #E65C6A;
+}
+
+.appl_details .details .on_hold .text h2 {
+    color: rgb(250, 219, 197);
+}
+
+.appl_details .details .accepted .text h2 {
+    color: #866DC6;
+}
+
+.appl_details .details .applications .bar,
+.appl_details .details .short_listed .bar,
+.appl_details .details .rejected .bar,
+.appl_details .details .on_hold .bar,
+.appl_details .details .accepted .bar {
+    width: 150px;
+    height: 12px;
+    background: rgba(119, 119, 119, 0.3);
+    border-radius: 5px;
+}
+
+.appl_details .details .applications .bar .fill,
+.appl_details .details .short_listed .bar .fill,
+.appl_details .details .rejected .bar .fill,
+.appl_details .details .on_hold .bar .fill,
+.appl_details .details .accepted .bar .fill {
+    width: 40%;
+    height: 99%;
+    background: rgb(188, 219, 236);
+    border-radius: 5px;
+}
+
+.appl_details .details .short_listed .bar .fill {
+    background-color: #2f98f6;
+    width: 75%;
+}
+
+.appl_details .details .rejected .bar .fill {
+    background-color: #E65C6A;
+    width: 35%;
+}
+
+.appl_details .details .on_hold .bar .fill {
+    background-color: rgb(250, 219, 197);
+    width: 15%;
+}
+
+.appl_details .details .accepted .bar .fill {
+    background-color: #866DC6;
+    width: 80%;
+}
